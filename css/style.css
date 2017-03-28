@@ -4,14 +4,17 @@ body {
 	font-size: 17px;
 	color: #444b49;
 }
-ul.menu li a {
-	font-family: "Roboto Slab";
-	color: #6b6f6e;
-	font-size: 16px;
+.menu li {
+	font-family: 'Roboto Slab';
 	font-weight: normal;
+	font-size: 16px;
+	color: #6b6f6e;
 	text-transform: uppercase;
 }
-a:link, a:visited, a:active {
+.menu li a:hover {
+	color: #ba291f !important;
+}
+a:link, a:visited, a:active, a:hover {
 	color: #ba291f;
 }
 
