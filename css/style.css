@@ -1,5 +1,8 @@
 body {
-  font-family: "Roboto Slab";
+	font-family: 'Roboto Slab';
+	font-weight: normal;
+	font-size: 17px;
+	color: #444b49;
 }
 ul.menu li a {
 	font-family: "Roboto Slab";
@@ -7,6 +10,9 @@ ul.menu li a {
 	font-size: 16px;
 	font-weight: normal;
 	text-transform: uppercase;
+}
+a:link, a:visited, a:active {
+	color: #ba291f;
 }
 
 .title {
@@ -18,4 +24,40 @@ h1 {
     font-size: 28px;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-weight: normal;
+    font-size: 24px;
+    color: #1e73be;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    font-weight: normal;
+    font-size: 22px;
+    color: #1e73be;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.wp-caption-text {
+    line-height: 17px;
+    margin: 0;
+    padding: 0 20px 0 0;
+	text-align: center;
+}
+
+em {
+	font-style: italic;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
 }
