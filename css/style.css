@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto Slab";
+}
+ul.menu li a {
+	font-family: "Roboto Slab";
+	color: #6b6f6e;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.title {
+    clear: both;
+}
+h1 {
+    color: #1e73be;
+    font-family: "Roboto Slab";
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
